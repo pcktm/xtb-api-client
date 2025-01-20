@@ -1,0 +1,17 @@
+{
+  "name": "xtb-api-client",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "p-throttle": "^7.0.0",
+    "typescript": "^5.7.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "prettier": "3.4.2",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.7",
+    "@types/ws": "^8.5.13"
+  }
+}
