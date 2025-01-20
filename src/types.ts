@@ -35,7 +35,7 @@ export enum QuoteID {
 /**
  * Represents detailed symbol data used for profit and margin calculations.
  */
-type TSymbolData = {
+export type TSymbolData = {
   /**
    * Ask price in base currency.
    */

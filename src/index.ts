@@ -1,1 +1,2 @@
-export { XTBClient, StreamingXTBClient } from './client';
+export * from './client';
+export * from './types';

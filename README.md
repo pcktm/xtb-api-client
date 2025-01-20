@@ -19,7 +19,7 @@ See the official XTB API documentation at [developers.xstore.pro/documentation](
 The client supports both synchronous commands and real-time streaming data. Here's a simple example:
 
 ```typescript
-import { XTBClient } from 'xtb-client-ws';
+import { XTBClient } from 'xtb-api-client';
 
 (async () => {
   const client = new XTBClient('demo');
@@ -34,7 +34,7 @@ import { XTBClient } from 'xtb-client-ws';
 ## Real-Time Market Data
 
 ```typescript
-import { XTBClient } from 'xtb-client-ws';
+import { XTBClient } from 'xtb-api-client';
 
 (async () => {
   const client = new XTBClient('real');
